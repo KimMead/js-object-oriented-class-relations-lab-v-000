@@ -1,5 +1,5 @@
 // A driver has mayn trips and has many passengers through trips.
-let store = { drivers: [], passengers: [], trips: [] }; 
+let store = { drivers: [], passengers: [], trips: [] };
 
 class Driver{
   constructor(name){
@@ -8,4 +8,3 @@ class Driver{
     store.drivers.push(this);
   }
 }
-  
