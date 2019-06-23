@@ -33,4 +33,10 @@ trips(){
   return store.trips.filter(trip => {
     return trip.passengerId == this.is;
   });
-}}
+}
+drivers(){
+  return this.trips().map(trip => {
+    return trip.driver();
+  });
+  }
+}
